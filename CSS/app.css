@@ -1,5 +1,19 @@
+.flex{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
 .contain{
     height: 70px;
     width: auto;
     background-color: darkcyan;
+}
+
+.contain li{
+    flex-direction: row;
+    margin:20px;
+    font-size: 1,5em;
+    justify-content: space-around;
+    color:white;
 }
